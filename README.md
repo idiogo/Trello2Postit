@@ -4,7 +4,8 @@ iOS App for printing post-its from Trello lists
 #Configure
 Add a 'configfile' to the project and paste this json with the lists url:
 
-```{
+```
+{
     "trello": {
         "panels": [
             {
@@ -17,4 +18,5 @@ Add a 'configfile' to the project and paste this json with the lists url:
             }
         ]
     }
-}```
+}
+```
