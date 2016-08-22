@@ -179,7 +179,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D9D7542A1CFD168D007D9B96 /* Build configuration list for PBXProject "TestA4Print" */;
+			buildConfigurationList = D9D7542A1CFD168D007D9B96 /* Build configuration list for PBXProject "Trello2Postit" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -391,7 +391,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestA4Print/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.appninja.TestA4Print;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.appninja.Trello2Postit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -403,7 +403,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestA4Print/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.appninja.TestA4Print;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.appninja.Trello2Postit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -411,7 +411,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D9D7542A1CFD168D007D9B96 /* Build configuration list for PBXProject "TestA4Print" */ = {
+		D9D7542A1CFD168D007D9B96 /* Build configuration list for PBXProject "Trello2Postit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D9D754441CFD168D007D9B96 /* Debug */,
