@@ -7,15 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88B2080F4C7B1A4C0C29BA84 /* libPods-TestA4Print.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ADC09F6B1A09112ECCA0CA /* libPods-TestA4Print.a */; };
+		D948D2681CFD4C590011D5CC /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = D948D2651CFD4C590011D5CC /* arrow.png */; };
+		D948D26A1CFD4C590011D5CC /* printer.png in Resources */ = {isa = PBXBuildFile; fileRef = D948D2671CFD4C590011D5CC /* printer.png */; };
+		D948D26D1CFD4EF80011D5CC /* fail.png in Resources */ = {isa = PBXBuildFile; fileRef = D948D26C1CFD4EF80011D5CC /* fail.png */; };
+		D948D26F1CFD50E80011D5CC /* trello.png in Resources */ = {isa = PBXBuildFile; fileRef = D948D26E1CFD50E80011D5CC /* trello.png */; };
+		D94AA9D41D1B0B3200062DA8 /* android.png in Resources */ = {isa = PBXBuildFile; fileRef = D94AA9D31D1B0B3200062DA8 /* android.png */; };
+		D94AA9D61D1B0B3700062DA8 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = D94AA9D51D1B0B3700062DA8 /* apple.png */; };
+		D99D55281D6B3456006988EA /* configfile in Resources */ = {isa = PBXBuildFile; fileRef = D99D55271D6B3456006988EA /* configfile */; };
 		D9D754341CFD168D007D9B96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D754331CFD168D007D9B96 /* main.m */; };
 		D9D754371CFD168D007D9B96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D754361CFD168D007D9B96 /* AppDelegate.m */; };
 		D9D7543A1CFD168D007D9B96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D754391CFD168D007D9B96 /* ViewController.m */; };
 		D9D7543D1CFD168D007D9B96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9D7543B1CFD168D007D9B96 /* Main.storyboard */; };
 		D9D7543F1CFD168D007D9B96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9D7543E1CFD168D007D9B96 /* Assets.xcassets */; };
 		D9D754421CFD168D007D9B96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9D754401CFD168D007D9B96 /* LaunchScreen.storyboard */; };
+		D9D7544A1CFD16C4007D9B96 /* PDFView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9D754491CFD16C4007D9B96 /* PDFView.xib */; };
+		D9D754501CFD269C007D9B96 /* PDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D7544F1CFD269C007D9B96 /* PDFView.m */; };
+		D9D754531CFD26EC007D9B96 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D754521CFD26EC007D9B96 /* CardView.m */; };
+		D9E1F13D1CFD32EA003C0084 /* CardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E1F13C1CFD32EA003C0084 /* CardModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		372D7196BDF1728B3D9F92E2 /* Pods-TestA4Print.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestA4Print.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestA4Print/Pods-TestA4Print.debug.xcconfig"; sourceTree = "<group>"; };
+		43ADC09F6B1A09112ECCA0CA /* libPods-TestA4Print.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestA4Print.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D948D2651CFD4C590011D5CC /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		D948D2671CFD4C590011D5CC /* printer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = printer.png; sourceTree = "<group>"; };
+		D948D26C1CFD4EF80011D5CC /* fail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fail.png; sourceTree = "<group>"; };
+		D948D26E1CFD50E80011D5CC /* trello.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trello.png; sourceTree = "<group>"; };
+		D94AA9D31D1B0B3200062DA8 /* android.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = android.png; sourceTree = "<group>"; };
+		D94AA9D51D1B0B3700062DA8 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
+		D99D55271D6B3456006988EA /* configfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = configfile; sourceTree = "<group>"; };
 		D9D7542F1CFD168D007D9B96 /* TestA4Print.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestA4Print.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D754331CFD168D007D9B96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D9D754351CFD168D007D9B96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +47,14 @@
 		D9D7543E1CFD168D007D9B96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9D754411CFD168D007D9B96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9D754431CFD168D007D9B96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9D754491CFD16C4007D9B96 /* PDFView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PDFView.xib; sourceTree = "<group>"; };
+		D9D7544E1CFD269C007D9B96 /* PDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFView.h; sourceTree = "<group>"; };
+		D9D7544F1CFD269C007D9B96 /* PDFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFView.m; sourceTree = "<group>"; };
+		D9D754511CFD26EC007D9B96 /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
+		D9D754521CFD26EC007D9B96 /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
+		D9E1F13B1CFD32EA003C0084 /* CardModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardModel.h; sourceTree = "<group>"; };
+		D9E1F13C1CFD32EA003C0084 /* CardModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardModel.m; sourceTree = "<group>"; };
+		FB1EDBA1417D99A2BD5BBF01 /* Pods-TestA4Print.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestA4Print.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestA4Print/Pods-TestA4Print.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +62,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88B2080F4C7B1A4C0C29BA84 /* libPods-TestA4Print.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		392F44B83349C304B864F1AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				372D7196BDF1728B3D9F92E2 /* Pods-TestA4Print.debug.xcconfig */,
+				FB1EDBA1417D99A2BD5BBF01 /* Pods-TestA4Print.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8ADF8A52A0DA5E14859D4514 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43ADC09F6B1A09112ECCA0CA /* libPods-TestA4Print.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D9D754261CFD168D007D9B96 = {
 			isa = PBXGroup;
 			children = (
 				D9D754311CFD168D007D9B96 /* TestA4Print */,
 				D9D754301CFD168D007D9B96 /* Products */,
+				392F44B83349C304B864F1AD /* Pods */,
+				8ADF8A52A0DA5E14859D4514 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +107,24 @@
 		D9D754311CFD168D007D9B96 /* TestA4Print */ = {
 			isa = PBXGroup;
 			children = (
+				D948D2651CFD4C590011D5CC /* arrow.png */,
+				D948D2671CFD4C590011D5CC /* printer.png */,
+				D948D26C1CFD4EF80011D5CC /* fail.png */,
+				D948D26E1CFD50E80011D5CC /* trello.png */,
+				D94AA9D31D1B0B3200062DA8 /* android.png */,
+				D94AA9D51D1B0B3700062DA8 /* apple.png */,
 				D9D754351CFD168D007D9B96 /* AppDelegate.h */,
 				D9D754361CFD168D007D9B96 /* AppDelegate.m */,
+				D9D7544E1CFD269C007D9B96 /* PDFView.h */,
+				D9D7544F1CFD269C007D9B96 /* PDFView.m */,
+				D9D754511CFD26EC007D9B96 /* CardView.h */,
+				D9D754521CFD26EC007D9B96 /* CardView.m */,
+				D9E1F13B1CFD32EA003C0084 /* CardModel.h */,
+				D9E1F13C1CFD32EA003C0084 /* CardModel.m */,
 				D9D754381CFD168D007D9B96 /* ViewController.h */,
 				D9D754391CFD168D007D9B96 /* ViewController.m */,
+				D99D55271D6B3456006988EA /* configfile */,
+				D9D754491CFD16C4007D9B96 /* PDFView.xib */,
 				D9D7543B1CFD168D007D9B96 /* Main.storyboard */,
 				D9D7543E1CFD168D007D9B96 /* Assets.xcassets */,
 				D9D754401CFD168D007D9B96 /* LaunchScreen.storyboard */,
@@ -86,9 +149,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9D754461CFD168D007D9B96 /* Build configuration list for PBXNativeTarget "TestA4Print" */;
 			buildPhases = (
+				8E0EFC19A13196E89A3B8F9F /* 📦 Check Pods Manifest.lock */,
 				D9D7542B1CFD168D007D9B96 /* Sources */,
 				D9D7542C1CFD168D007D9B96 /* Frameworks */,
 				D9D7542D1CFD168D007D9B96 /* Resources */,
+				3003433EFF4F167912FF3CC5 /* 📦 Embed Pods Frameworks */,
+				A22DBBABAB13CFA3DE6C29D8 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,6 +203,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9D754421CFD168D007D9B96 /* LaunchScreen.storyboard in Resources */,
+				D948D26F1CFD50E80011D5CC /* trello.png in Resources */,
+				D948D2681CFD4C590011D5CC /* arrow.png in Resources */,
+				D94AA9D41D1B0B3200062DA8 /* android.png in Resources */,
+				D99D55281D6B3456006988EA /* configfile in Resources */,
+				D94AA9D61D1B0B3700062DA8 /* apple.png in Resources */,
+				D948D26D1CFD4EF80011D5CC /* fail.png in Resources */,
+				D948D26A1CFD4C590011D5CC /* printer.png in Resources */,
+				D9D7544A1CFD16C4007D9B96 /* PDFView.xib in Resources */,
 				D9D7543F1CFD168D007D9B96 /* Assets.xcassets in Resources */,
 				D9D7543D1CFD168D007D9B96 /* Main.storyboard in Resources */,
 			);
@@ -144,12 +218,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3003433EFF4F167912FF3CC5 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestA4Print/Pods-TestA4Print-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E0EFC19A13196E89A3B8F9F /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A22DBBABAB13CFA3DE6C29D8 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestA4Print/Pods-TestA4Print-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D9D7542B1CFD168D007D9B96 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D9D7543A1CFD168D007D9B96 /* ViewController.m in Sources */,
+				D9E1F13D1CFD32EA003C0084 /* CardModel.m in Sources */,
+				D9D754501CFD269C007D9B96 /* PDFView.m in Sources */,
+				D9D754531CFD26EC007D9B96 /* CardView.m in Sources */,
 				D9D754371CFD168D007D9B96 /* AppDelegate.m in Sources */,
 				D9D754341CFD168D007D9B96 /* main.m in Sources */,
 			);
@@ -261,6 +386,7 @@
 		};
 		D9D754471CFD168D007D9B96 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 372D7196BDF1728B3D9F92E2 /* Pods-TestA4Print.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestA4Print/Info.plist;
@@ -272,6 +398,7 @@
 		};
 		D9D754481CFD168D007D9B96 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB1EDBA1417D99A2BD5BBF01 /* Pods-TestA4Print.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestA4Print/Info.plist;
@@ -300,6 +427,7 @@
 				D9D754481CFD168D007D9B96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
